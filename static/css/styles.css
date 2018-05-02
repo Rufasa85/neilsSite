@@ -3,7 +3,15 @@ body{
 	color:aliceblue;
 }
 
+.serviceCard {
+	height:500px;
+	width:33%;
+}
+
 #splashJumbo {
+	display:flex;
+	align-items: center;
+	justify-content:center;
 	width:100%;
 	height: 100vh;
 	margin: 0 auto;
@@ -11,4 +19,28 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+#cardFlex {
+	margin-top:5px;
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+}
+
+#trainerService {
+	background-image: url(https://images.pexels.com/photos/136405/pexels-photo-136405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+}
+
+#staff {
+	background-image: url(https://images.pexels.com/photos/935870/pexels-photo-935870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#otherService{
+	background-image: url(https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+
 }

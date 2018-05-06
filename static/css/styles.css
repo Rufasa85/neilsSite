@@ -3,6 +3,10 @@ body{
 	color:aliceblue;
 }
 
+#externalLinksBar i {
+	font-size:2em;
+}
+
 .serviceCard {
 	height:500px;
 	width:33%;
@@ -17,6 +21,7 @@ body{
 	font-size:2em;
 	cursor:pointer;
 }
+
 
 #splashJumbo {
 	display:flex;
@@ -36,6 +41,7 @@ body{
 	width:100%;
 	display:flex;
 	justify-content:space-around;
+	margin-bottom:5px;
 }
 
 #trainerService {
@@ -64,4 +70,16 @@ body{
 	background-color: black;
 	width: 100%;
 
+}
+
+#footbar {
+	display:flex;
+	justify-content:space-around;
+	background-color:black;
+	width:100%;
+}
+
+#externalLinksBar {
+	display:flex;
+	justify-content: space-around;
 }

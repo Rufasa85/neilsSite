@@ -8,6 +8,16 @@ body{
 	width:33%;
 }
 
+.navbarLink {
+	display:inline-block;
+}
+
+.navbarLink a {
+	color:white;
+	font-size:2em;
+	cursor:pointer;
+}
+
 #splashJumbo {
 	display:flex;
 	align-items: center;
@@ -42,5 +52,16 @@ body{
 #otherService{
 	background-image: url(https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 	background-size: cover;
+
+}
+
+#navbar {
+	position: fixed;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	height:10vh;
+	background-color: black;
+	width: 100%;
 
 }

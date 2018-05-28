@@ -72,6 +72,12 @@ body{
 
 }
 
+#navbarLogo {
+	height: 10vh;
+	width: auto;
+}
+
+
 #footbar {
 	display:flex;
 	justify-content:space-around;

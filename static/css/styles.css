@@ -12,6 +12,10 @@ body{
 	width:33%;
 }
 
+.spacer {
+	height: 10vh;
+}
+
 .navbarLink {
 	display:inline-block;
 }

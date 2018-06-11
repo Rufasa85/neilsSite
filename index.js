@@ -13,11 +13,11 @@ app.get('/training', function(req,res) {
 	res.render('training')
 });
 
-app.get('/staff', function(req,res) {
-	res.render('staff')
+app.get('/group', function(req,res) {
+	res.render('group')
 });
 
-app.get('/other', function(req,res) {
-	res.render('other')
+app.get('/massage', function(req,res) {
+	res.render('massage')
 });
 app.listen(3000);

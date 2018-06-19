@@ -20,4 +20,4 @@ app.get('/group', function(req,res) {
 app.get('/massage', function(req,res) {
 	res.render('massage')
 });
-app.listen(3000);
+app.listen(process.env.PORT || 3000);

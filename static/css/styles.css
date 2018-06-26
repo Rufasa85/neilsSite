@@ -89,7 +89,7 @@ body{
 }
 
 #groupService {
-	background-image: url(https://images.pexels.com/photos/935870/pexels-photo-935870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-image: url(../assets/images/groupPic.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }

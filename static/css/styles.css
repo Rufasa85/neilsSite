@@ -72,18 +72,48 @@ body{
 	margin:0 auto;
 }
 
-#splashJumbo {
+.splashJumbo {
 	display:flex;
 	align-items: center;
 	justify-content:center;
 	width:100%;
-	height: 100vh;
+	height: 100%;
 	margin: 0 auto;
-	background-image: url(../assets/images/jumbo.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	flex-wrap: wrap;
+}
+
+.slick-initialized .slick-slide {
+	display:flex;
+	align-items: center;
+}
+
+.splashImg {
+	display:flex;
+	align-items: center;
+	justify-content:center;		
+	height: 80vh;
+	margin: 0 auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#headSpace {
+	height:10vh;
+}
+
+#splashOne {
+	background-image: url(../assets/images/jumbo.jpg);
+}
+
+#splashTwo {
+	background-image: url(../assets/images/splashTwo.jpg);
+}
+
+#splashThree {
+	background-image: url(../assets/images/splashThree.jpg);
 }
 
 #cardFlex {

@@ -1,3 +1,11 @@
 $(document).ready(function(){
-	console.log('new linkz')
+	$('.splashJumbo').slick({
+		slidesToShow:1,
+		slidesToScroll:1,
+		autoplay:true,
+		autoplaySpeed:4000,
+		pauseOnHover:false,
+		pauseOnFocus:false,
+		arrows:false
+	})
 });

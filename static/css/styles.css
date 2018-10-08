@@ -16,8 +16,21 @@ body{
 .serviceCard {
 	height:500px;
 	width:33%;
-	font-size: 20px;
+	font-size: 2em;
 }
+
+@media screen and (max-width: 992px) {
+	.serviceCard {
+		height: 25vh;
+		width:100%;
+		flex-grow: 1;
+	}
+
+	.serviceCard h2 {
+		text-align: center
+	}
+}
+
 
 .spacer {
 	height: 10vh;
@@ -46,7 +59,7 @@ body{
 
 .serviceWell {
 	color:black;
-	font-size: 24px;	
+	font-size: 2em;	
 	width: 60%;
 	margin:0 auto;
 	background: white;
@@ -120,6 +133,7 @@ body{
 	margin-top:5px;
 	width:100%;
 	display:flex;
+	flex-wrap: wrap;
 	justify-content:space-around;
 	margin-bottom:5px;
 }
@@ -132,7 +146,6 @@ body{
 #groupService {
 	background-image: url(../assets/images/groupPic.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 #massage {

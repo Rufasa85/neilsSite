@@ -2,12 +2,9 @@ body{
 	background-color: maroon;
 	color:aliceblue;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
+    font-size:2em;
 }
 
-#externalLinksBar i {
-	font-size:2em;
-}
 
 .center {
 	text-align: center;
@@ -16,8 +13,13 @@ body{
 .serviceCard {
 	height:500px;
 	width:33%;
-	font-size: 2em;
 }
+
+.serviceCard a {
+	color:aliceblue;
+	text-decoration: none;
+}
+
 
 @media screen and (max-width: 992px) {
 	.serviceCard {
@@ -42,7 +44,6 @@ body{
 
 .navbarLink a {
 	color:white;
-	font-size:2em;
 	cursor:pointer;
 }
 
@@ -58,11 +59,10 @@ body{
 }
 
 .serviceWell {
-	color:black;
-	font-size: 2em;	
+	text-shadow:none;
 	width: 60%;
 	margin:0 auto;
-	background: white;
+	background:hsl(0,75%,25%);
 	border-radius: 5px;
 	box-shadow: 2px 2px black;
 }
@@ -116,6 +116,12 @@ body{
 #headSpace {
 	height:10vh;
 }
+
+#missonStatement {
+	width: 66vw;
+	margin:0 auto;
+}
+
 
 #splashOne {
 	background-image: url(../assets/images/jumbo.jpg);

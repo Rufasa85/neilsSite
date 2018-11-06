@@ -58,6 +58,10 @@ body{
 	padding: 10px;
 }
 
+.content {
+	min-height: 70vh;
+}
+
 .serviceWell {
 	text-shadow:none;
 	width: 60%;
